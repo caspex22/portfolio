@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Font Digital";
+    src: url("Colfax-Medium.otf");
+}
+
+body {
+    background: #363131;
+    font-family: "Font Digital";
+    margin: 0;
+    padding: 0;
+}
+
+body#bg-img {
+    background: url(img/b.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body#bg-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(42, 36, 36, 0.7);
+}
+
+#main {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    height: 95px;
+    background-color: #0003;
+    line-height: 80px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.9s all;
+}
+
+nav ul li:hover {
+    background-color: rgba(42, 36, 36, 0.7);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 35px;
+}
+
+nav img {
+    float: left;
+    margin: 10px;
+}
+
+div h1 {
+    font-size: 7rem;
+    color: rgb(214, 211, 211);
+}
+
+div hr {
+    width: 50%;
+    float: left;
+}
+
+div p {
+    font-family: serif;
+    font-size: 3rem;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    float: none;
+    color: cadetblue;
+}
+
+div a i {
+    transition: 0.9s all;
+}
+
+.img .gambar {
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    border-radius: 25%;
+    border: #259B9A 3px solid;
+}
+
+div blockquote p {
+    color: #fff;
+    font-size: 2rem;
+}
+
+div .item .pho {
+    width: 250px;
+    height: 130px;
+
+}
