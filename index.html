@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Portfolio</title>
-    <!-- css -->
-    <link rel="stylesheet" href="mystyle.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.css" />
-    <!-- /css -->
-  </head>
 
-  <body id="bg-img">
-    <!-- header -->
-    <div id="main">
-      <nav>
-        <img src="img/logo2.png" alt="logo" />
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="index.html">Photos</a></li>
-          <li><a href="index.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <!-- /header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/mystyle.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.css" />
+  <!-- /css -->
+</head>
 
-    <!-- body -->
-    <main>
-      <!-- home -->
+<body id="bg-img">
+  <!-- header -->
+  <div>
+    <nav>
+      <img src="img/logo2.png" alt="logo" />
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- /header -->
+
+  <!-- body -->
+  <main>
+    <!-- home -->
+    <section id="home" class="scrollspy">
       <div class="container py-5">
         <h1 class="hello">HELLO WORLD</h1>
         <hr class="border-light my-1" />
         <br />
         <div class="col-lg-8">
           <p>
-            Focus For the future & always grateful. Code, Hiking, Photography,
-            and Sport
+            Focus For the future & always grateful.
           </p>
+          <p class="p2">Code, Hiking, Photography,
+            and Sport</p>
         </div>
       </div>
       <div class="container py-5">
         <div class="row">
-          <a href="#" class="col-lg-7 ml-auto">
+          <a href="#about" class="col-lg-7 ml-auto">
             <i class="fa fa-chevron-down fa-5x " aria-hidden="true"></i>
           </a>
         </div>
       </div>
+    </section>
 
-      <!-- about  -->
+    <!-- about  -->
+    <section id="about" class="scrollspy">
       <div class="container about">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center">
@@ -95,8 +96,10 @@
           </blockquote>
         </div>
       </div>
+    </section>
 
-      <!-- Photos -->
+    <!-- Photos -->
+    <section id="photos" class="scrollspy">
       <div class="container photos">
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
@@ -132,56 +135,60 @@
           </div>
         </div>
       </div>
-    </main>
-    <!-- body -->
+  </main>
+  </section>
+  <!-- body -->
 
-    <!-- footer -->
-    <section>
-    <div class="container about">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-8 text-center">
-                <h2 class="mb-4 section-title">Contact</h2>
-            </div>
+  <!-- footer -->
+  <section id="contact" class="scrollspy">
+    <div class="container contact">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+          <h2 class="mb-4 section-title">Contact</h2>
         </div>
+      </div>
 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-4 mb-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 mb-5">
             <h3 class="mb-4">Created with</h3>
             <p> HTML 5 , CSS 3 , BOOTSTRAP 4.3 , OWL Carousel 2.3</p>
-        </div>
-        <div class="col-md-3 ml-auto">
+          </div>
+          <div class="col-md-3 ml-auto">
             <h3 class="mb-4">Navigation</h3>
-            <ul class="list-unstyled">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="list-unstyled ">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Photos</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
-        </div>
-        <div class="col-md-3 mb-5">
-            <ul class="d-flex">
-                <li><a href="#" class="p-2"><i class="fa fa-facebook fa-4x"></i></a></li>
-                <li><a href="#" class="p-2"></a></li>
-                <li><a href="#" class="p-2"></a></li>
-                <li><a href="#" class="p-2"></a></li>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h3 class="mb-4">Social Media</h3>
+            <ul class="d-flex p-0">
+              <li><a href="#" class="p-2"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+              <li><a href="#" class="p-2"><i class="fab fa-twitter fa-3x"></i></a></li>
+              <li><a href="#" class="p-2"><i class="fab fa-instagram fa-3x"></i></a></li>
+              <li><a href="#" class="p-2"><i class="fab fa-github-square fa-3x"></i></a></li>
             </ul>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 text-md-center text-left">
+        <div class="row p-4">
+          <div class="col-12 text-md-center text-left footer">
             <p>
 
-                Copyright ©   2019 All right reserved | <a href="#">Ruben Filemon</a>         </p>
+              Copyright © 2019 All right reserved | <a href="#">Ruben Filemon</a> </p>
+          </div>
         </div>
       </div>
-    </div>
-    </section>
-    <!-- /footer -->
+  </section>
+  <!-- /footer -->
 
-    <!-- js -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/myscript.js"></script>
-  </body>
+  <!-- js -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/myscript.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
 </html>
